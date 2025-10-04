@@ -50,5 +50,7 @@ int main(){
         
     }
 
+    // MARK: IMPORTANT TO NOTE THAT INT HAS 4 BYTES
+
     return 0;
 }

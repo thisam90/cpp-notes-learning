@@ -15,7 +15,7 @@ TARGET = my_program
 # Define source files
 # SRCS = main.cpp file1.cpp file2.cpp
 # Change here the .cpp file you want to compile, you can use multiple
-SRCS = day3.cpp
+SRCS = day4.cpp
 # Automatically generate object file names from source files
 OBJS = $(SRCS:.cpp=.o)
 

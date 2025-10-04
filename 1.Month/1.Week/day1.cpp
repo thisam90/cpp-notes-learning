@@ -25,6 +25,7 @@ int main(){
     
    
     // MARK: What is compilation
+    // https://learn.microsoft.com/en-us/shows/cplusplus-language-library/01
     // Compilation takes the human-readable code and translate to human code
     // What is the process;
     // Source code → Compilation → Object code → Linking → Executable
