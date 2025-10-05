@@ -11,6 +11,7 @@
 
  #include <iostream>
 
+void print_vector_info(const std::vector(std::string) players);
 
  int main(){
 
@@ -20,5 +21,9 @@
         std::cout << string << std::endl;
     }
 
+
+
+
     return 0;
  }
+
