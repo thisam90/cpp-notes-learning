@@ -1,42 +1,149 @@
-# Prerequisites
+# ============================================================
+# Target: Xcode, CLion, Qt Creator, Visual Studio, VSCode
+# Goal: Keep only Folders and .cpp source files in repository
+# Compatible with macOS, Linux, Windows
+# ============================================================
+
+# ============================================================
+# PREREQUISITES
+# ============================================================
 *.d
 
-# Compiled Object files
+# ============================================================
+# COMPILER / BUILD OUTPUTS
+# ============================================================
 *.slo
 *.lo
 *.o
 *.obj
-
-# Precompiled Headers
 *.gch
 *.pch
-
-# Linker files
 *.ilk
-
-# Debugger Files
 *.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
+*.dwo
 *.mod
 *.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
-
-# Executables
+*.so
+*.dylib
+*.dll
 *.exe
 *.out
 *.app
 
-# debug information files
-*.dwo
+# ============================================================
+# IDE / TOOLCHAIN SPECIFIC
+# ============================================================
+
+# ---- XCODE ----
 .DS_Store
+*.xcuserstate
+*.xcuserdata/
+*.xcworkspace/
+build/
+DerivedData/
+*.xccheckout
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# ---- CLION / JETBRAINS ----
+.idea/
+cmake-build-*/
+
+# ---- QT CREATOR ----
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+*.qmlc
+*.jsc
+*.qmake.stash
+*.pro.user.*
+
+# ---- VISUAL STUDIO ----
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.ncb
+*.idb
+*.ipch
+*.aps
+*.opendb
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+Debug/
+Release/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# ---- VISUAL STUDIO CODE ----
+.vscode/
+.history/
+*.code-workspace
+
+# ---- MACOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ---- LINUX ----
+*~
+.nfs*
+
+# ---- WINDOWS ----
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+
+# ============================================================
+# OTHER GENERATED FILES
+# ============================================================
+*.log
+*.tmp
+*.cache
+*.bak
+*.swp
+*.swo
+*.swn
+*.user
+*.class
+*.pyc
+*.pyo
+*.orig
+*.rej
+*.idb
+*.tlog
+*.rsp
+*.db
+*.ninja_deps
+*.ninja_log
+*.manifest
+
+# ============================================================
+# REPOSITORY STRUCTURE POLICY
+# ============================================================
+# Keep only folders and .cpp source files
+# (You may whitelist headers if desired)
+!*/
+!*.cpp
+
+# Uncomment the next line if you also want to keep headers
+ !*.h
+ !*.hpp
