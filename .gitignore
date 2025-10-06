@@ -55,6 +55,7 @@ DerivedData/
 # ---- CLION / JETBRAINS ----
 .idea/
 cmake-build-*/
+/.idea
 
 # ---- QT CREATOR ----
 *.pro.user
