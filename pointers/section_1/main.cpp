@@ -57,9 +57,10 @@ int main(int argc, const char * argv[]) {
     *
     */
 
+    //IMPORTANT: Pointers always take up the same amount of memory regardless of what they point to
 
-    int x = 42;
-    int* iptr = &x;
+    int x = 42; // direct access
+    int* iptr = &x; // indirect access
 
     std::cout << "Value of x: " << x << std::endl;
     std::cout << "Address of x: " << &x <<std::endl;

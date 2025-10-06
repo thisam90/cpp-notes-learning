@@ -147,3 +147,7 @@ ehthumbs.db
 # Uncomment the next line if you also want to keep headers
  !*.h
  !*.hpp
+pointers/section_3/section_3.xcodeproj/xcuserdata/alexm.xcuserdatad/xcschemes/xcschememanagement.plist
+pointers/section_3/section_3.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+pointers/section_3/section_3.xcodeproj/project.pbxproj
+*.pbxproj
