@@ -1,25 +1,17 @@
 /**********************************************
- * Project   : Section 4 - Dereferencing Pointers
- * File      : section_4.cpp
+ * Project   : Section 5 - Dynamic Memory Allocation
+ * File      : section_5.cpp
  * Author    : Alexandru Lucian Manolache
  * Created   : 06 10 2025
  * Copyright : (c) 2025 by Alexandru Lucian Manolache
  *
  * Description:
- *  Dereferencing Pointers
+ *  Dynamic Memory Allocation
  **********************************************/
-
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    
-   /* Dereferencing means "follow the pointer to get the actual value it points to." */
-    
-   /* Dereference operator * (also called the indirection operator) accesses the value
-    * at the address stored in the pointer
-    */
-    
-    
+    // insert code here...
     std::cout << "Hello, World!\n";
     return EXIT_SUCCESS;
 }
