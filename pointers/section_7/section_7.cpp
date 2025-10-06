@@ -8,3 +8,12 @@
  * Description:
  *   Relationship between pointer and arrays
  **********************************************/
+
+ #include <iostream>
+
+
+ int main(){
+
+
+    return 0;
+ }
