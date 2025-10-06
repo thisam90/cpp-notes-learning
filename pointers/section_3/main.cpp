@@ -29,6 +29,7 @@ int main(){
     std::cout << "Players health: " << player_health << std::endl;
     
     
+    //MARK: Key Insight: Pointers Provide Indirect Access
     
     int score = 90;
     int *sptr = nullptr;
@@ -37,6 +38,18 @@ int main(){
     std::cout << "Score 10+ ptrs \n";
     *sptr += 10;
     std::cout << "Score: " << score << std::endl;
+    
+    
+    //MARK: Always check before dereferencing
+    
+    int *ptr = nullptr;
+    
+    if(ptr != nullptr){
+        std::cout << *ptr;
+    }else{
+        std::cout << "Pointer is null" ;
+    }
+    
     
     return 0;
 }
