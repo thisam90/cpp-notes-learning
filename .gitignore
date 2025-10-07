@@ -172,3 +172,5 @@ pointers/section_6/.idea/misc.xml
 pointers/section_6/.idea/inspectionProfiles/Project_Default.xml
 pointers/section_6/.idea/editor.xml
 pointers/section_6/.idea/dtsSettings.xml
+*.xcworkspacedata
+*.plist
