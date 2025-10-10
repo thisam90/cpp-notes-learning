@@ -27,5 +27,13 @@ int main(){
     const int& ref3 = 50;
     std::cout << "ref3: " << ref3;
 
+
+    int foo = 54;
+    int &r = foo;
+    const int& r2 = r;
+
+    std::cout << "foo: " << foo << std::endl;
+    std::cout << "r: " << r << std::endl;
+    std::cout << "r2: " << r2 << std::endl;
     return 0;
 }
