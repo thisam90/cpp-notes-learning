@@ -178,3 +178,5 @@ pointers/section_11/CMakeLists.txt
 pointers/section_11/.idea/vcs.xml
 pointers/section_11/.idea/section_11.iml
 /pointers/section_11/.idea
+*.xml
+/oop/03.01.BankAccountConsole/.idea
