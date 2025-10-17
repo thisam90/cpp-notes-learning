@@ -183,3 +183,4 @@ pointers/section_11/.idea/section_11.iml
 *.txt
 *.iml
 oop/03.02.InventoryItemClass/.idea/.name
+oop/04_rule_of_three/Makefile/.clang-format
